@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        nav ul {
+        display: inline-flex;
+    }
+    nav ul li {
+        padding: 30px;
+        list-style: none;
+        color: darkgoldenrod;
+    }
+    h1 {
+        color: rgb(93 16 148 / 50%);
+    }
+    
+</style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Contact</h1>
+<form action="mailto:shaked.peretz@gmail.com" method="post" enctype=”text/plain” name="contactPage">
+
+    <label for="fullName">Full Name</label> </br>
+    <input type="text" id="fullName" name="fullname" placeholder="Full Name">
+</br>
+    <label for="mail">Email Address</label></br>
+
+    <input type="text" id="mail" name="mail" placeholder="Email Address">
+</br>
+
+    <label for="character">Your favorite character</label></br>
+
+    <select id="character" name="character">
+        <option disabled selected value> -- select an option -- </option>
+      <option value="Chandel">Chandel</option>
+      <option value="Pheebe">Pheebe</option>
+      <option value="Monica">Monica</option>
+      <option value="Joey">Joey</option>
+      <option value="Rachel">Rachel</option>
+      <option value="Ross">Ross</option>
+    </select>
+</br>
+
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
